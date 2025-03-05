@@ -1,0 +1,274 @@
+/*-------------------------------------------------
+BASE
+-------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+/*-------------------------------------------------
+ÉLEMENTS
+-------------------------------------------------*/
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+body{
+    margin: 0; 
+    padding: 0;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: black;
+    background-color: #E6EDF1;
+
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/*-------------------------------------------------
+COMPONENTS
+-------------------------------------------------*/
+
+/*-----header-----*/
+header{
+    background-color: #379AE3;
+    height: 66px;
+
+    position: sticky;
+    top: 0;
+}
+header .wrapper{
+    display: flex;
+    height: 66px;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*--proprietes--*/
+header ul{
+    display: flex;
+    gap: 15px;
+}
+
+header h1{
+    font-family: 'Merriweather';
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    margin-left: 140px;
+}
+
+header li{    
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+}
+
+header li:hover{
+    color: #E6EDF1;
+}
+
+.billet{
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+
+    background-color: white;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 12px 29px;
+    margin-right: 140px;
+}
+
+/*-----hero-----*/
+.hero{
+    background-image: url(../images/HeroImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 637px;
+}
+
+.box{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+
+    height: 637px;
+
+}
+
+.texte{
+    background-color: rgba(0,0,0, 70%);
+    padding: 40px 53px;
+    border-radius: 20px;
+
+    width: 550px;
+    text-align: center;
+
+
+}
+
+/*--proprietes--*/
+.hero h2{
+    font-family: 'Merriweather';
+    font-weight: 700;
+    color: #E67522;
+    font-size: 64px;
+
+    margin: 0;
+}
+
+.hero p{
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+
+    margin: 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.hero a{
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+
+    background-color: #E67522;
+    border-radius: 5px;
+    padding: 12px 29px;
+
+    margin: 0;
+}
+
+/*-----contenu-----*/
+.contenu{
+    height: 1230px;
+}
+
+.ContenuTexte{
+   padding-top: 130px;
+   text-align: center;
+}
+
+/*--proprietes--*/
+
+.ContenuTexte h3{
+    font-family: 'Merriweather';
+    font-weight: 700;
+    color: black;
+    font-size: 64px;
+
+    margin: 0;
+}
+
+.ContenuTexte p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+
+    margin: 0;
+    padding-top: 40px;
+}
+
+/*-----article-----*/
+
+article{
+    background-color: white;
+    flex-direction: column;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+
+    margin-top: 85px;
+}
+
+.card-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 785px;
+    gap: 30px;
+}
+
+
+/*--proprietes--*/
+article h4{
+    font-family: 'Merriweather';
+    font-weight: 700;
+    color: black;
+    font-size: 36px;
+
+    padding-top: 45px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+article p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+
+    padding: 0 15px;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+article a{
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+
+    border: 2px solid black;
+    background-color: #E67522;
+    border-radius: 5px;
+    padding: 15px 20px;
+
+    margin-bottom: 40px;
+    margin-top: auto;
+}
+
+/*footer*/
+footer{
+    height: 270px;
+    background-color: #CCDAE3;
+}
+
+footer p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+
+    text-align: center;
+    margin: 0;
+}
+/*--proprietes--*/
