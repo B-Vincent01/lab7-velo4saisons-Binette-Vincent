@@ -98,7 +98,7 @@ header li:hover{
     border: 2px solid black;
     border-radius: 5px;
 
-    padding: 12px 29px;
+    padding: 5px 30px;
     margin-right: 140px;
 }
 
@@ -193,10 +193,21 @@ header li:hover{
     font-size: 18px;
 
     margin: 0;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 /*-----article-----*/
+.banniere{
+    position: relative;
+    top: -708px;
+    left: 1350px;
+}
+
+.banniere img{
+    width: 98px;
+    height: 101px;
+
+}
 
 article{
     background-color: white;
@@ -206,7 +217,7 @@ article{
     align-items: center;
     text-align: center;
   
-
+    
     margin-top: 85px;
 }
 
@@ -215,6 +226,12 @@ article{
     grid-template-columns: 1fr 1fr 1fr;
     height: 785px;
     gap: 30px;
+}
+
+/*regler probleme de les images qui non pas la bonne taille = probleme de deformation de l'image (je n'ai pas trouver la solution)*/
+.ImageCarte{
+    width: 460px;
+    height: 370px;
 }
 
 
@@ -236,7 +253,7 @@ article p{
     color: black;
     font-size: 18px;
 
-    padding: 0 15px;
+    padding: 0 50px;
     margin: 0;
     margin-bottom: 60px;
 }
@@ -262,6 +279,33 @@ footer{
     background-color: #CCDAE3;
 }
 
+.material-symbols-outlined{
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #E67522;
+    color: white;
+
+    font-size: 54px;
+
+    height: 90px;
+    width: 90px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+    padding-bottom: 65px;
+    gap: 20px;
+}
+
+/*--proprietes--*/
+
 footer p{
     font-family: 'Roboto';
     font-weight: 400;
@@ -271,4 +315,3 @@ footer p{
     text-align: center;
     margin: 0;
 }
-/*--proprietes--*/
